@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Wed Feb 25 2015 04:12:02 GMT+0000 (UTC) -->
-<html data-wf-site="54d7f5c9673830fd185e2750" data-wf-page="54d7f5c9673830fd185e2751">
+<!-- Last Published: Mon Apr 27 2015 01:24:13 GMT+0000 (UTC) -->
+<html data-wf-site="54d7f5c9673830fd185e2750" data-wf-page="54f028791ccd6c2e19dae426">
 <head>
   <meta charset="utf-8">
-  <title>DemocracyOS</title>
+  <title>Democracy - DemocracyOS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content="Webflow">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
-  <link rel="stylesheet" type="text/css" href="css/democracyos.css">
+  <link rel="stylesheet" type="text/css" href="css/democracyos.webflow.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
       google: {
-        families: ["Montserrat:400,700","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Droid Serif:400,700","Droid Sans:400,700"]
+        families: ["Merriweather:300,400,700,900","Montserrat:400,700","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Droid Serif:400,700","Droid Sans:400,700","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]
       }
     });
   </script>
@@ -23,17 +23,15 @@
   <link rel="apple-touch-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png">
 </head>
 <body>
-  <div class="w-clearfix app-header">
-    <div class="header-container">
-      <div class="w-container btn-group">
-        <div class="w-clearfix logo"><img class="logo" src="images/logo-democracyos.png" alt="54e3dcca0d06303e245d998c_logo-democracyos.png">
-        </div>
-      </div>
-    </div>
-    <div class="search-input">
-      <div class="w-form w-clearfix">
-        <form class="w-clearfix command-form" id="wf-form-command-line" name="wf-form-command-line" data-name="command-line">
-          <input class="w-input command-line" id="command" type="text" placeholder="Search..." name="command" required="required" data-name="command">
+  <div class="w-section w-clearfix app-header">
+    <div class="w-clearfix app-menu">
+      <a class="w-inline-block link-hamburger home" href="newsfeed.html" data-ix="context-menu"><img class="menu-hamburger" src="images/home-icon.png" alt="54f655b967193b5405b2a363_home-icon.png">
+      </a>
+      <div class="w-form">
+        <form class="w-clearfix search-form" id="email-form" name="email-form" data-name="Email Form">
+          <div class="w-clearfix search-box">
+            <input class="w-input command-line" id="Search" type="email" placeholder="Search..." name="Search" data-name="Search" required="required"><img class="search-icon" src="images/search.png" alt="54f67c9f5a29c8b30bf0f74e_search.png">
+          </div>
         </form>
         <div class="w-form-done">
           <p>Thank you! Your submission has been received!</p>
@@ -43,198 +41,1111 @@
         </div>
       </div>
     </div>
-    <div class="user-nav">
-      <div class="w-container btn-group">
-        <div class="w-clearfix btn">
-          <div class="w-clearfix user">
-            <div class="w-dropdown w-clearfix name" data-delay="0">
-              <div class="w-dropdown-toggle name">
-                <div>Santiago Siri</div>
-                <div class="w-icon-dropdown-toggle"></div>
+    <div class="w-clearfix demos-user"><img class="profile-pic" src="images/Screen Shot 2015-03-03 at 7.14.50 PM.png" alt="54f679012fc1fba53a157e7b_Screen%20Shot%202015-03-03%20at%207.14.50%20PM.png">
+      <h4 class="instance-title">Ernesto</h4><img class="dropdown-arrow" src="images/dropdown-arrow.png" alt="54f6857db0a6fdb20b9ffe66_dropdown-arrow.png">
+    </div>
+    <div class="w-clearfix demos-title">
+      <h4 class="instance-title">Democracy Activity</h4>
+    </div>
+    <div class="search-box search-mobile"><img class="search-icon search-mobile" src="images/search.png" alt="54f67c9f5a29c8b30bf0f74e_search.png">
+    </div>
+  </div>
+  <div class="modal">
+    <div class="messagebox">
+      <div class="w-clearfix discovery-item">
+        <div class="discovery-description argument">
+          <h1 class="discovery-title">Confirm Your Vote</h1>
+          <div class="w-clearfix action comment">
+            <div class="comic comment bitcoin-comic"><img class="comic-img" src="images/comic.png" alt="54ec3a288b496d6f318bb7ae_comic.png">
+            </div><img class="bitcoin-address" src="images/Screen Shot 2015-03-16 at 6.57.46 PM.png" alt="55078a5562cbab2574bcd260_Screen%20Shot%202015-03-16%20at%206.57.46%20PM.png">
+            <div class="bitcoin-instructions">
+              <div>Send Bitcoin to the following address:</div>
+            </div>
+            <div class="bitcoin-textadress">12CktUYR3PwvUBTFkRcsPmyCRty2UKDdUE</div>
+            <div class="bitcoin-instructions">
+              <div>This transaction will be counted as <strong>one vote for YES.</strong>&nbsp;
+                <br>You can send any amount of BTC.&nbsp;
+                <br>All funds are sent to the owner of this democracy.</div>
+            </div>
+          </div>
+        </div>
+        <div class="w-clearfix discovery-footer">
+          <div class="w-clearfix source"><img class="democracy-owner" src="images/Screen Shot 2015-02-17 at 11.46.47 PM.png" alt="54e4438059e6fba824938ac3_Screen%20Shot%202015-02-17%20at%2011.46.47%20PM.png">
+            <div class="official"><img src="images/official.png" alt="54e6959d0f9f854c29e38082_official.png" title="An elected member of the state committed to DemocracyOS">
+            </div>
+            <div class="w-clearfix details">
+              <div class="w-clearfix author">
+                <div class="created-by democracy-proposal">Voting as&nbsp;<a class="demos-link" href="#">Ben Kallos</a>&nbsp;</div>
+                <div class="created-by democracy-proposal">Identity will be kept <strong>anonymous</strong>.</div>
               </div>
-              <nav class="w-dropdown-list dropdown-menu"><a class="w-dropdown-link dropdown-link" href="#">Profile</a><a class="w-dropdown-link dropdown-link" href="#">Settings</a><a class="w-dropdown-link dropdown-link" href="#">Logout</a>
-              </nav>
-            </div><img class="profile" src="images/5d2849bcb825c61072c77c804521a535.jpeg" alt="54dd53901db7daaf1eb36b1d_5d2849bcb825c61072c77c804521a535.jpeg">
+              <div class="author"></div>
+            </div>
+          </div>
+          <div class="w-clearfix trigger">
+            <div class="details call-to-action">
+              <a class="w-inline-block vote-option vote-discovery voted-yes" href="#">
+                <div>Awaiting TRANSACTION...</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="messagebox">
+      <div class="w-clearfix discovery-item">
+        <div class="discovery-description argument">
+          <h1 class="discovery-title">Vote Confirmed</h1>
+          <div class="w-clearfix action comment">
+            <div class="comic comment bitcoin-comic"><img class="comic-img" src="images/comic.png" alt="54ec3a288b496d6f318bb7ae_comic.png">
+            </div>
+            <div class="bitcoin-instructions">
+              <div>Your vote has been successfully recorded in the Blockchain under this transaction:</div>
+            </div>
+            <div class="bitcoin-textadress">3fd548ee2459a48d85deb50a25b607a63c539e9871c66c24664bacc30aed009f</div>
+            <div class="bitcoin-instructions">
+              <div>It has been labeled :</div>
+            </div>
+            <div class="bitcoin-textadress">Value:&nbsp;YES
+              <br>Identity Key:&nbsp;b50a25b607a63c539e987607a63c539e&nbsp;</div>
+            <div class="bitcoin-instructions">
+              <div>Copy the idenitity key to verify in your <a class="information-link" href="#">profile</a> this vote was effectively from your account.</div>
+            </div>
+          </div>
+        </div>
+        <div class="w-clearfix discovery-footer">
+          <div class="w-clearfix source"><img class="democracy-owner" src="images/Screen Shot 2015-02-17 at 11.46.47 PM.png" alt="54e4438059e6fba824938ac3_Screen%20Shot%202015-02-17%20at%2011.46.47%20PM.png">
+            <div class="official"><img src="images/official.png" alt="54e6959d0f9f854c29e38082_official.png" title="An elected member of the state committed to DemocracyOS">
+            </div>
+            <div class="w-clearfix details">
+              <div class="w-clearfix author">
+                <div class="created-by democracy-proposal">Voting as&nbsp;<a class="demos-link" href="#">Ben Kallos</a>&nbsp;</div>
+                <div class="created-by democracy-proposal">Identity was kept <strong>anonymous</strong>.</div>
+              </div>
+              <div class="author"></div>
+            </div>
+          </div>
+          <div class="w-clearfix trigger">
+            <div class="details call-to-action">
+              <a class="w-inline-block vote-option vote-discovery voted-yes" href="#">
+                <div>voted yes</div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="nav-proposal">
-    <div class="filter-container">
-      <div class="laws-filter">
-        <div class="btn-group btn-group-justified">
-          <a class="w-inline-block btn btn-default btn-filter-left active" href="#">
-            <div>12 open</div>
-          </a>
-          <a class="w-inline-block btn btn-default btn-filter-right" href="#">
-            <div>2 closed</div>
-          </a>
-        </div>
-        <div class="sort-filter">
-          <div class="w-dropdown" data-delay="0">
-            <div class="w-dropdown-toggle dropdown">
-              <div>Closing Soon</div>
-              <div class="w-icon-dropdown-toggle"></div>
-            </div>
-            <nav class="w-dropdown-list dropdown-menu"><a class="w-dropdown-link dropdown-link" href="#">Closing Soon</a><a class="w-dropdown-link dropdown-link" href="#">Newest First</a><a class="w-dropdown-link dropdown-link" href="#">Oldest First</a><a class="w-dropdown-link dropdown-link" href="#">Recently Updated</a>
-            </nav>
-          </div>
-        </div>
-        <div class="hide-voted-filter">
-          <div class="w-form">
-            <form id="email-form" name="email-form" data-name="Email Form">
-              <div class="w-checkbox">
-                <input class="w-checkbox-input" id="checkbox" type="checkbox" name="checkbox" data-name="Checkbox">
-                <label class="w-form-label" for="checkbox">Hide voted by me</label>
-              </div>
-            </form>
-            <div class="w-form-done">
-              <p>Thank you! Your submission has been received!</p>
-            </div>
-            <div class="w-form-fail">
-              <p>Oops! Something went wrong while submitting the form :(</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="list-container">
-      <ul class="w-list-unstyled navlist">
-        <li class="active">
-          <a class="w-clearfix w-inline-block voted" href="#">
-            <div class="icon">
-              <div class="item-tag"><img src="images/people.svg" height="20" alt="54df29f38a7a2f951de167b4_people.svg">
-              </div>
-              <div class="item-badges"><img src="images/check.png" height="12" alt="54df273f8a7a2f951de1679b_check.png">
-              </div>
-            </div>
-            <div class="title">Student Loan Fairness Act</div><img class="flag" src="images/flag-us.png" alt="54e1a11498a59a2e55a46529_flag-us.png">
-            <div class="created-by">Washington DC, 1230 participants</div>
-            <div class="time-ago-label">Closes in 2 months</div>
-          </a>
-        </li>
-        <li class="active">
-          <a class="w-clearfix w-inline-block voted" href="#">
-            <div class="icon">
-              <div class="item-tag"><img src="images/people.svg" height="20" alt="54df29f38a7a2f951de167b4_people.svg">
-              </div>
-            </div>
-            <div class="title">Imputar a @CFKArgentina</div><img class="flag" src="images/flag-ar.png" alt="54e1a168691f69a5629aa96c_flag-ar.png">
-            <div class="created-by">Buenos Aires, 283 participants</div>
-            <div class="time-ago-label">Closes in 2 months</div>
-          </a>
-        </li>
-        <li class="active">
-          <a class="w-clearfix w-inline-block voted" href="#">
-            <div class="icon">
-              <div class="item-tag"><img src="images/people.svg" height="20" alt="54df29f38a7a2f951de167b4_people.svg">
-              </div>
-              <div class="item-badges"><img src="images/check.png" height="12" alt="54df273f8a7a2f951de1679b_check.png">
-              </div>
-            </div>
-            <div class="title">Startup Immigration Bill</div><img class="flag" src="images/flag-us.png" alt="54e1a11498a59a2e55a46529_flag-us.png">
-            <div class="created-by">California, 2K participants</div>
-            <div class="time-ago-label">Closes in 2 months</div>
-          </a>
-        </li>
-        <li class="active">
-          <a class="w-clearfix w-inline-block voted" href="#">
-            <div class="icon">
-              <div class="item-tag"><img src="images/people.svg" height="20" alt="54df29f38a7a2f951de167b4_people.svg">
-              </div>
-              <div class="item-badges"><img src="images/check.png" height="12" alt="54df273f8a7a2f951de1679b_check.png">
-              </div>
-            </div>
-            <div class="title">Magna Carta for the Web</div><img class="flag" src="images/earth.png" alt="54e1aab198a59a2e55a465cd_earth.png">
-            <div class="created-by">Earth, 23K participants</div>
-            <div class="time-ago-label">Closes in 2 months</div>
-          </a>
-        </li>
-        <li class="active">
-          <a class="w-clearfix w-inline-block voted" href="#">
-            <div class="icon">
-              <div class="item-tag"><img src="images/people.svg" height="20" alt="54df29f38a7a2f951de167b4_people.svg">
-              </div>
-            </div>
-            <div class="title">Take action in Crimea</div><img class="flag" src="images/flag-ua.png" alt="54e1a1b4691f69a5629aa972_flag-ua.png">
-            <div class="created-by">Kiev, 6M participants</div>
-            <div class="time-ago-label">Closes in 2 months</div>
-          </a>
-        </li>
-        <li class="active">
-          <a class="w-clearfix w-inline-block voted" href="#">
-            <div class="icon">
-              <div class="item-tag"><img src="images/people.svg" height="20" alt="54df29f38a7a2f951de167b4_people.svg">
-              </div>
-            </div>
-            <div class="title">Overthrow Monarchy</div><img class="flag" src="images/flag-sp.png" alt="54e1ab230eb2d7a462aedb39_flag-sp.png">
-            <div class="created-by">Madrid, 23M participants</div>
-            <div class="time-ago-label">Closes in 2 months</div>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="app-content">
-    <div class="inner-container">
-      <div class="alert">
-        <div>This is DemocracyOS’ public demo. <a href="http://democracyos.org" class="alert-link" target="_blank">Learn more.</a>
-        </div>
-      </div>
-      <div class="proposal">
-        <div class="w-clearfix meta-information"><img class="icon-time" src="images/Screen Shot 2015-02-14 at 8.37.46 PM.png" alt="54e022af5644776733ef36ea_Screen%20Shot%202015-02-14%20at%208.37.46%20PM.png">
-          <div class="time-ago-label article">Closes in 2 months.</div>
-        </div>
-        <h1>Student Loan Fairness Act</h1>
-        <h2 class="author">Author: <a href="http://twitter.com/santisiri" class="author-link" target="_blank">Elizabeth Warren</a></h2>
-        <h2 class="metadata">Location: <a href="http://twitter.com/santisiri" class="author-link" target="_blank">Washington DC</a>&nbsp;</h2>
-      </div>
-      <div class="summary">
-        <p class="proposal-paragraph">A whole new way of renting houses and vacations spots arised when Airbnb came up. An inovative idea and an iconic case study of so-called sharing economy, this community is a marketplace where guests can book spaces from hosts connects people who have space to spare with those who are looking for a place to stay. It’s goal, they say: to make people feel home anywhere in the world.
-          <br>But the reality is far less benign, according to a report released by Eric T. Schneiderman, the New York attorney general.</p>
-      </div>
-      <div class="w-clearfix source"><img class="glyphicon" src="images/Screen Shot 2015-02-15 at 8.04.39 PM.png" alt="54e16c70691f69a5629aa458_Screen%20Shot%202015-02-15%20at%208.04.39%20PM.png">
-        <div><a href="#" class="source">View original text</a>
-        </div>
-      </div>
-      <div class="w-clearfix links">
-        <h5>More information</h5><img class="glyphicon" src="images/Screen Shot 2015-02-15 at 8.20.54 PM.png" alt="54e171b2691f69a5629aa4a6_Screen%20Shot%202015-02-15%20at%208.20.54%20PM.png">
-        <p class="information-link"><a href="#" class="information-link">Scotland's Office article on develution</a>
-        </p><img class="glyphicon" src="images/Screen Shot 2015-02-15 at 8.20.54 PM.png" alt="54e171b2691f69a5629aa4a6_Screen%20Shot%202015-02-15%20at%208.20.54%20PM.png">
-        <p class="information-link"><a href="#" class="information-link">U</a>K Government:&nbsp;More powers to scotland</p>
-      </div>
-      <div class="participants">
-        <div class="participants-counter">35 Participants</div><img class="participants-avatar" src="images/user-00.png" alt="54e176580b1a5d3055c49ada_user-00.png"><img class="participants-avatar" src="images/user-01.png" alt="54e17695691f69a5629aa51e_user-01.png"><img class="participants-avatar" src="images/user-02.png" alt="54e176a7691f69a5629aa521_user-02.png"><img class="participants-avatar" src="images/user-03.png" alt="54e176af0b1a5d3055c49add_user-03.png"><img class="participants-avatar" src="images/user-03.png" alt="54e176af0b1a5d3055c49add_user-03.png">
-        <a class="w-inline-block view-more" href="#">
-          <div>...</div>
-        </a>
-      </div>
-      <div class="share-links">
-        <a class="w-inline-block social facebook" href="#"><img src="images/scoial-facebook.png" alt="54e17fd6691f69a5629aa6a0_scoial-facebook.png">
-        </a>
-        <a class="w-inline-block social twitter" href="#"><img src="images/social-twitter.png" alt="54e1801898a59a2e55a462f9_social-twitter.png">
-        </a>
-      </div>
-    </div>
-    <div class="inner-container commentable-container">
-      <div class="proposal-options">
-        <div class="vote-box">
-          <h5>VOTE</h5>
-          <div class="w-clearfix direct-vote">
-            <a class="w-inline-block vote-option vote-yes" href="#">
-              <div>Yay</div>
+  <div class="w-section w-clearfix app">
+    <div class="w-section nav-proposal">
+      <div class="nav-title">Proposals</div>
+      <div class="filter-container">
+        <div class="laws-filter">
+          <div class="sort-filter">
+            <a class="w-inline-block filter selected" href="#">
+              <div>All</div>
             </a>
-            <a class="w-inline-block vote-option vote-abstain" href="#">
-              <div>Abstain</div>
+            <a class="w-inline-block filter" href="#">
+              <div>Open</div>
             </a>
-            <a class="w-inline-block vote-option vote-no" href="#">
-              <div>Nay</div>
+            <a class="w-inline-block filter" href="#">
+              <div>closed</div>
+            </a>
+            <a class="w-inline-block filter" href="#">
+              <div>voted</div>
             </a>
           </div>
         </div>
       </div>
+      <div class="list-container">
+        <ul class="w-list-unstyled navlist">
+          <li class="active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">Welcome to New York City Council</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">873</div>
+                <div class="w-clearfix data-container"><img class="data-icon" src="images/deadline.png" alt="54e635000b7ff64d29549c62_deadline.png">
+                  <div class="data-output">17 hours left</div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="separator">
+            <div>February 2015</div>
+          </li>
+          <li class="w-clearfix active selected">
+            <div class="tick selected"><img src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png">
+            </div>
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title selected">Regulate Airbnb in Manhattan</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output selected">12K&nbsp;</div>
+                <div class="w-clearfix data-container"><img class="data-icon" src="images/deadline.png" alt="54e635000b7ff64d29549c62_deadline.png">
+                  <div class="data-output selected">3 days left</div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="w-clearfix active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">Startup Immigration Bill</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">23</div>
+                <div class="w-clearfix data-container"><img class="data-icon" src="images/deadline.png" alt="54e635000b7ff64d29549c62_deadline.png">
+                  <div class="data-output">Closed</div>
+                </div>
+              </div>
+            </a>
+            <div class="tick"><img src="images/cross-on.png" alt="550ca1136ba5885555e11ac4_cross-on.png">
+            </div>
+          </li>
+          <li class="separator">
+            <div>January 2015</div>
+          </li>
+          <li class="active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">Magna Carta for the Web</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">4230</div>
+              </div>
+            </a>
+            <div class="tick"></div>
+          </li>
+          <li class="active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">Take action in Crimea</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">940</div>
+                <div class="w-clearfix data-container"><img class="data-icon" src="images/deadline.png" alt="54e635000b7ff64d29549c62_deadline.png">
+                  <div class="data-output">6 days left</div>
+                </div>
+              </div>
+            </a>
+            <div class="tick"><img src="images/cross-on.png" alt="550ca1136ba5885555e11ac4_cross-on.png">
+            </div>
+          </li>
+          <li class="separator">
+            <div>December 2014</div>
+          </li>
+          <li class="w-clearfix active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">Student Loan Fairness Act</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">873</div>
+                <div class="w-clearfix data-container"><img class="data-icon" src="images/deadline.png" alt="54e635000b7ff64d29549c62_deadline.png">
+                  <div class="data-output">17 hours left</div>
+                </div>
+              </div>
+            </a>
+            <div class="tick"></div>
+          </li>
+          <li class="active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">Devolution:&nbsp;Scotland in the United Kingdom</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">12M</div>
+                <div class="w-clearfix data-container"><img class="data-icon" src="images/deadline.png" alt="54e635000b7ff64d29549c62_deadline.png">
+                  <div class="data-output">17 hours left</div>
+                </div>
+              </div>
+            </a>
+            <div class="tick"></div>
+          </li>
+          <li class="active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">Extensión del horario del Subte</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">2.4K&nbsp;</div>
+                <div class="w-clearfix data-container"><img class="data-icon" src="images/deadline.png" alt="54e635000b7ff64d29549c62_deadline.png">
+                  <div class="data-output">17 hours left</div>
+                </div>
+              </div>
+            </a>
+            <div class="tick"><img src="images/tick-on.png" alt="54f27c0249cd545d7a17b608_tick-on.png">
+            </div>
+          </li>
+          <li class="separator">
+            <div>november 2014</div>
+          </li>
+          <li class="active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">Espacio para motos</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">12K</div>
+                <div class="w-clearfix data-container"><img class="data-icon" src="images/deadline.png" alt="54e635000b7ff64d29549c62_deadline.png">
+                  <div class="data-output">17 hours left</div>
+                </div>
+              </div>
+            </a>
+            <div class="tick"><img src="images/tick-on.png" alt="54f27c0249cd545d7a17b608_tick-on.png">
+            </div>
+          </li>
+          <li class="active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">DemocracyOS Delegation Feature</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">873</div>
+                <div class="w-clearfix data-container"><img class="data-icon" src="images/deadline.png" alt="54e635000b7ff64d29549c62_deadline.png">
+                  <div class="data-output">17 hours left</div>
+                </div>
+              </div>
+            </a>
+            <div class="tick"></div>
+          </li>
+        </ul>
+      </div>
     </div>
+    <div class="w-section w-clearfix proposal-article">
+      <div class="content">
+        <div class="article-wrap">
+          <h5 class="dialogbox-title">Proposal</h5>
+          <div class="article">
+            <h1 class="discovery-title article-title">Regulate Airbnb in Manhattan</h1>
+            <div class="w-clearfix metadata article-metadata"><img class="democracy-owner article-author" src="images/Screen Shot 2015-02-17 at 11.46.47 PM.png" alt="54e4438059e6fba824938ac3_Screen%20Shot%202015-02-17%20at%2011.46.47%20PM.png">
+              <div class="official author-official"><img class="official-account" src="images/official.png" alt="54e6959d0f9f854c29e38082_official.png" title="An elected member of the state committed to DemocracyOS">
+              </div>
+              <div class="w-clearfix source argument-source">
+                <div class="w-clearfix details argument-details">
+                  <div class="w-clearfix author argument-author">
+                    <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#"><strong>Congressman</strong> Ben Kallos</a>&nbsp;</div>
+                    <div class="data-output argument-metadata">3 days ago</div>
+                  </div>
+                  <div class="author"></div>
+                </div>
+              </div>
+            </div>
+            <div class="proposal-post article-post">
+              <p class="proposal-paragraph article label"><strong>Should NYC gov legislate to control Airbnb activities?</strong>
+                <br>
+                <a href="#" class="demos-link"></a>
+              </p>
+              <p class="proposal-paragraph article">A whole new way of renting houses and vacations spots arose when Airbnb came up. An inovative idea and an iconic case study of so-called <a class="demos-link" href="#">sharing economy</a>, this community is a marketplace where guests can book spaces from hosts connects people who have space to spare with those who are looking for a place to stay. <span class="highlight">It’s goal, they say: to make people feel home anywhere in the world</span>.
+                <br>
+                <a href="#" class="demos-link"></a>
+              </p>
+              <p class="proposal-paragraph article">But the reality is far less benign, according to a report released by <a class="demos-link" href="#">Eric T. Schneiderman</a>, the New York attorney general.
+                <br>
+                <a href="#" class="demos-link"></a>
+              </p><img class="article-img" src="images/screen-shot-2014-10-17-at-3-35-38-pm.png" alt="54e43acd59e6fba824938a08_screen-shot-2014-10-17-at-3-35-38-pm.png">
+              <p class="proposal-paragraph article">The report will say nearly three-quarters of all Airbnb rentals in the city are illegal, violating zoning or other laws such as the <a class="demos-link" href="#">Multiple Dwelling Law</a>. Commercial operators, not hard-luck residents, supply more than a third of the units and generate more than a third of the revenue. <span class="highlight">At least a handful of landlords are running what amount to illegal hostels</span>. Property owners on Airbnb are indeed making money, but it is not being spread around. Most rentals are in three high-profile Manhattan neighborhoods. Queens, the Bronx and Staten Island barely figure.
+                <br>
+                <a href="#" class="demos-link"></a>
+              </p>
+              <p class="article label proposal-paragraph"><strong>Arguments Against:</strong>
+                <br>
+                <a href="#" class="demos-link"></a>
+              </p>
+              <p class="proposal-paragraph article">Admirers of Airbnb say these stars of the so-called sharing economy are breaking up monopolies that have grown greedy and lazy. They are empowering individuals.In some contentious spots, <span class="highlight">like San Francisco, where the local government endorsed a plan last week to essentially legalize Airbnb,</span> a resolution may be in sight. But in New York, where real estate is often viewed as a blood sport, the battle is only deepening.
+                <br>
+                <a href="#" class="demos-link"></a>
+              </p>
+              <p class="proposal-paragraph article label"><strong>Arguments in Favor:</strong>
+                <br>
+                <a href="#" class="demos-link"></a>
+              </p>
+              <p class="proposal-paragraph article">Those in favour of making legislation to regulate Airbnb activities say that the start-ups are unsavory efforts to avoid regulation and taxes, and that the very term “sharing economy” is ridiculous.“The greatest problem is the threat to tenants by owners who hope to vacate as many units as possible, or even entire buildings, to then be used as transient, illegal hotels,” says <a class="demos-link" href="#">Manhattan Borough President Gale Brewer</a> “Anyone operating an illegal hotel should be on notice that the state and city will take aggressive enforcement actions in this area,” said Ney York Attorney General. “A slick advertising campaign doesn’t change the fact that this is illegal activity.”
+                <br>
+                <a href="#" class="demos-link"></a>
+              </p>
+              <p class="proposal-paragraph article label"><strong>What's next</strong>
+                <br>
+                <a href="#" class="demos-link"></a>
+              </p>
+              <p class="proposal-paragraph article">We do not want large owners to avoid taxes under the pretext of sharing-economy, although it does seem good that people can pay their bills being hospitable. Airbnb is good for house owners that want to share costs recieving people at their homes, but it’s even better for landlords owning entire buildings that work as illegal hotels. At the end of the day, it is again about our tax system. <span class="highlight">If many aspects of <a xmlns="http://www.w3.org/1999/xhtml" class="demos-link" href="#">Airbnb</a> are good for cities, why should we legislate against instead of just controling mean people with flexible laws?</span> Maybe the law is wrong, and we shoul be doing something to fix it. Airbnb-like startups should cooperate. Councilmembers and researchers and clients should cooperate. We’d probably come up with a solution that’s good enough for most people involved.
+                <br>
+                <a href="#" class="demos-link"></a>
+              </p>
+              <p class="proposal-paragraph article label"><strong>We want to know your reasons to vote yes or no. In this case, arguments are more important than votes</strong>
+                <br>
+                <a href="#" class="demos-link"></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="article-wrap action-section">
+          <h5 class="dialogbox-title">Facts</h5>
+          <div class="w-clearfix links setting"><img class="glyphicon" src="images/Screen Shot 2015-02-15 at 8.20.54 PM.png" alt="54e171b2691f69a5629aa4a6_Screen%20Shot%202015-02-15%20at%208.20.54%20PM.png">
+            <p class="information-link"><a class="information-link" href="#">Scotland's Office article on develution</a>
+            </p><img class="glyphicon" src="images/Screen Shot 2015-02-15 at 8.20.54 PM.png" alt="54e171b2691f69a5629aa4a6_Screen%20Shot%202015-02-15%20at%208.20.54%20PM.png">
+            <p class="information-link"><a class="information-link" href="#">U</a>K Government:&nbsp;More powers to scotland</p>
+          </div>
+        </div>
+      </div>
+      <div class="arguments">
+        <div class="article-wrap">
+          <h5 class="dialogbox-title">POST&nbsp;AN&nbsp;ARGUMENT</h5>
+          <div class="w-clearfix vote-box">
+            <div class="w-form">
+              <form id="email-form" name="email-form" data-name="Email Form">
+                <textarea class="w-input setting-input viral-input argument-input" id="Argument" placeholder="Be polite..." name="Argument" data-name="Argument"></textarea>
+              </form>
+              <div class="w-form-done">
+                <p>Thank you! Your submission has been received!</p>
+              </div>
+              <div class="w-form-fail">
+                <p>Oops! Something went wrong while submitting the form :(</p>
+              </div>
+            </div>
+            <div class="vote-data"><strong>2500</strong>&nbsp;characters left <span class="acotation">(for all your arguments)</span>.</div>
+          </div>
+        </div>
+        <div class="article-wrap argument-wrap">
+          <h5 class="dialogbox-title">Annotations</h5>
+          <div class="w-clearfix thread">
+            <div class="argument-item annotation">
+              <p class="proposal-paragraph article annotation-quote"><span class="highlight">It’s goal, they say: to make people feel home anywhere in the world</span>
+              </p>
+            </div>
+            <div class="w-clearfix argument-item">
+              <div class="argument-vote-box">
+                <div class="argument-upvote"><img src="images/upvote.png" alt="550d313c3205ed7e3f2ca6ea_upvote.png">
+                </div>
+                <div>-3</div>
+                <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                </div>
+              </div><img class="democracy-owner article-author" src="images/a0ef853f6f9079e67eeb408bbfa451e2.png" alt="54e6b2270f9f854c29e381a1_a0ef853f6f9079e67eeb408bbfa451e2.png">
+              <div class="w-clearfix source argument-source">
+                <div class="w-clearfix details argument-details">
+                  <div class="w-clearfix author argument-author">
+                    <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#">Guacamole Joe</a>&nbsp;</div>
+                    <div class="data-output argument-metadata">3 days ago</div>
+                  </div>
+                  <div class="author"></div>
+                </div>
+              </div>
+              <div class="argument">
+                <div>I believe that these contracts should be banned, because the ar inherently unfair as only one party can determine and effectively change the contract</div>
+              </div>
+              <div class="w-clearfix social-group">
+                <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                  <div class="viral-btn-text replies-text">REPLY</div>
+                </a>
+                <div class="mark">
+                  <div class="w-dropdown mark-selection" data-delay="0">
+                    <div class="w-dropdown-toggle mark-text">
+                      <div>Mark As</div>
+                      <div class="w-icon-dropdown-toggle arrow"></div>
+                    </div>
+                    <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <div class="w-clearfix argument-item">
+                <div class="argument-vote-box">
+                  <div class="argument-upvote"><img src="images/upvote.png" alt="550d313c3205ed7e3f2ca6ea_upvote.png">
+                  </div>
+                  <div>-40</div>
+                  <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                  </div>
+                </div><img class="democracy-owner article-author" src="images/a0ef853f6f9079e67eeb408bbfa451e2.png" alt="54e6b2270f9f854c29e381a1_a0ef853f6f9079e67eeb408bbfa451e2.png">
+                <div class="w-clearfix source argument-source">
+                  <div class="w-clearfix details argument-details">
+                    <div class="w-clearfix author argument-author">
+                      <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#">Juan Roman Riquelme</a>&nbsp;</div>
+                      <div class="data-output argument-metadata">3 days ago</div>
+                    </div>
+                    <div class="author"></div>
+                  </div>
+                </div>
+                <div class="argument">
+                  <div>They should certainly be better regulated, but they should not be banned: they do have their uses.&nbsp;Exclusive&nbsp;zero hour contracts have no place anywhere, but probably aren't lawful anyway.</div>
+                </div>
+                <div class="w-clearfix social-group">
+                  <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                    <div class="viral-btn-text replies-text">REPLY</div>
+                  </a>
+                  <div class="mark">
+                    <div class="w-dropdown mark-selection" data-delay="0">
+                      <div class="w-dropdown-toggle mark-text">
+                        <div>Mark As</div>
+                        <div class="w-icon-dropdown-toggle arrow"></div>
+                      </div>
+                      <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="argument-item annotation">
+              <p class="proposal-paragraph article annotation-quote"><span class="highlight">At least a handful of landlords are running what amount to illegal hostels</span>
+              </p>
+            </div>
+            <div class="w-clearfix argument-item">
+              <div class="argument-vote-box">
+                <div class="argument-upvote"><img src="images/upvote.png" alt="550d313c3205ed7e3f2ca6ea_upvote.png">
+                </div>
+                <div>3</div>
+                <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                </div>
+              </div><img class="democracy-owner article-author" src="images/portrait-bastian.jpg" alt="550d42223205ed7e3f2ca81a_portrait-bastian.jpg">
+              <div class="w-clearfix source argument-source">
+                <div class="w-clearfix details argument-details">
+                  <div class="w-clearfix author argument-author">
+                    <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#">Don Ramon Pirune</a>&nbsp;</div>
+                    <div class="data-output argument-metadata">3 days ago</div>
+                  </div>
+                  <div class="author"></div>
+                </div>
+              </div>
+              <div class="argument">
+                <div>I couldn't agree more that we need to protect the Refuge from oil drilling. The fact that economies are heavily dependent on oil drilling is not an argument in favor of drilling more but an argument in favour of thinking outside of the box and finding new industries that can be fostered in those territories that won't be paid for by future generations.</div>
+              </div>
+              <div class="w-clearfix social-group">
+                <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                  <div class="viral-btn-text replies-text">REPLY</div>
+                </a>
+                <div class="mark">
+                  <div class="w-dropdown mark-selection" data-delay="0">
+                    <div class="w-dropdown-toggle mark-text">
+                      <div>Mark As</div>
+                      <div class="w-icon-dropdown-toggle arrow"></div>
+                    </div>
+                    <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <div class="w-clearfix argument-item">
+                <div class="argument-vote-box">
+                  <div class="argument-upvote"><img src="images/upvote.png" alt="550d313c3205ed7e3f2ca6ea_upvote.png">
+                  </div>
+                  <div>120</div>
+                  <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                  </div>
+                </div><img class="democracy-owner article-author" src="images/portrait-pantufla.jpg" alt="54e6b68e0b7ff64d2954a992_portrait-pantufla.jpg">
+                <div class="w-clearfix source argument-source">
+                  <div class="w-clearfix details argument-details">
+                    <div class="w-clearfix author argument-author">
+                      <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#">Pantufla</a>&nbsp;</div>
+                      <div class="data-output argument-metadata">23 hours ago</div>
+                    </div>
+                    <div class="author"></div>
+                  </div>
+                </div>
+                <div class="argument">
+                  <div>They should certainly be better regulated,They should certainly be better regulated,They should certainly be better regulated,</div>
+                </div>
+                <div class="w-clearfix social-group">
+                  <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                    <div class="viral-btn-text replies-text">REPLY</div>
+                  </a>
+                  <div class="mark">
+                    <div class="w-dropdown mark-selection" data-delay="0">
+                      <div class="w-dropdown-toggle mark-text">
+                        <div>Mark As</div>
+                        <div class="w-icon-dropdown-toggle arrow"></div>
+                      </div>
+                      <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="argument-item annotation">
+              <p class="proposal-paragraph article annotation-quote"><span class="highlight">like San Francisco, where the local government endorsed a plan last week to essentially legalize Airbnb,</span>
+              </p>
+            </div>
+            <div class="w-clearfix argument-item">
+              <div class="argument-vote-box">
+                <div class="argument-upvote"><img src="images/upvote.png" alt="550d313c3205ed7e3f2ca6ea_upvote.png">
+                </div>
+                <div>9</div>
+                <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                </div>
+              </div><img class="democracy-owner article-author" src="images/portrait-pigeon.jpg" alt="550d43683205ed7e3f2ca835_portrait-pigeon.jpg">
+              <div class="w-clearfix source argument-source">
+                <div class="w-clearfix details argument-details">
+                  <div class="w-clearfix author argument-author">
+                    <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#">Anastasia Luxemburgo</a>&nbsp;</div>
+                    <div class="data-output argument-metadata">3 days ago</div>
+                  </div>
+                  <div class="author"></div>
+                </div>
+              </div>
+              <div class="argument">
+                <div>Cualquier cosa que diga nacional atrasa 100 años. Me entendieron?&nbsp;Lo dije clarito.</div>
+              </div>
+              <div class="w-clearfix social-group">
+                <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                  <div class="viral-btn-text replies-text">REPLY</div>
+                </a>
+                <div class="mark">
+                  <div class="w-dropdown mark-selection" data-delay="0">
+                    <div class="w-dropdown-toggle mark-text">
+                      <div>Mark As</div>
+                      <div class="w-icon-dropdown-toggle arrow"></div>
+                    </div>
+                    <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="argument-item annotation">
+              <p class="proposal-paragraph article annotation-quote"><span class="highlight">If many aspects of&nbsp;Airbnb&nbsp;are good for cities, why should we legislate against instead of just controling mean people with flexible laws?</span>
+              </p>
+            </div>
+            <div class="w-clearfix argument-item">
+              <div class="argument-vote-box">
+                <div class="argument-upvote"><img src="images/upvote.png" alt="550d313c3205ed7e3f2ca6ea_upvote.png">
+                </div>
+                <div>10</div>
+                <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                </div>
+              </div><img class="democracy-owner article-author" src="images/portrait-pigeon.jpg" alt="550d43683205ed7e3f2ca835_portrait-pigeon.jpg">
+              <div class="w-clearfix source argument-source">
+                <div class="w-clearfix details argument-details">
+                  <div class="w-clearfix author argument-author">
+                    <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#">Anastasia Luxembrugo</a>&nbsp;</div>
+                    <div class="data-output argument-metadata">3 days ago</div>
+                  </div>
+                  <div class="author"></div>
+                </div>
+              </div>
+              <div class="argument">
+                <div>Me dijeron que hoy Roma cumple 2768 años.&nbsp;</div>
+              </div>
+              <div class="w-clearfix social-group">
+                <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                  <div class="viral-btn-text replies-text">REPLY</div>
+                </a>
+                <div class="mark">
+                  <div class="w-dropdown mark-selection" data-delay="0">
+                    <div class="w-dropdown-toggle mark-text">
+                      <div>Mark As</div>
+                      <div class="w-icon-dropdown-toggle arrow"></div>
+                    </div>
+                    <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h5 class="dialogbox-title">Arguments</h5>
+          <div class="w-clearfix thread">
+            <div class="w-clearfix argument-item">
+              <div class="argument-vote-box">
+                <div class="argument-upvote"><img src="images/upvote.png" alt="550d313c3205ed7e3f2ca6ea_upvote.png">
+                </div>
+                <div>122</div>
+                <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                </div>
+              </div><img class="democracy-owner article-author" src="images/portrait-pigeon.jpg" alt="550d43683205ed7e3f2ca835_portrait-pigeon.jpg">
+              <div class="w-clearfix source argument-source">
+                <div class="w-clearfix details argument-details">
+                  <div class="w-clearfix author argument-author">
+                    <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#">John Bonjovi</a>&nbsp;</div>
+                    <div class="data-output argument-metadata">3 days ago</div>
+                  </div>
+                  <div class="author"></div>
+                </div>
+              </div>
+              <div class="argument">
+                <div>I agree that these contracts have a place providing flexibility for both parties. A key factor is risk ... they transfer some of the risks related to employing somebody from the employer to the employee.Therefore, for me, the value of this bill is to support equitable and fair contracts. As an employee, I get a job that otherwise would not exist and flexibility which works for me. If I want, I can hedge my risk by having multiple concurrent zero hours contracts with different employers. Exclusive contracts stop this and the employee bears more risk. So, for me, the clause in the bill banning exclusive contracts is crucial and I support this bill.</div>
+              </div>
+              <div class="w-clearfix social-group">
+                <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                  <div class="viral-btn-text replies-text">REPLY</div>
+                </a>
+                <div class="mark">
+                  <div class="w-dropdown mark-selection" data-delay="0">
+                    <div class="w-dropdown-toggle mark-text">
+                      <div>Mark As</div>
+                      <div class="w-icon-dropdown-toggle arrow"></div>
+                    </div>
+                    <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-clearfix thread">
+            <div class="w-clearfix argument-item">
+              <div class="argument-vote-box">
+                <div class="argument-upvote selected-upvote"><img src="images/upvote-selected.png" alt="550d31776ba5885555e121eb_upvote-selected.png">
+                </div>
+                <div>17</div>
+                <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                </div>
+              </div>
+              <div class="w-clearfix crown"><img class="olive" src="images/olive.png" alt="553d3244093f04bb293e759c_olive.png">
+                <div class="crown-label">BEST Argument for yea&nbsp;</div>
+              </div><img class="democracy-owner article-author" src="images/paulgraham_2239_0.jpeg" alt="54ee749cad14dea861fc016b_paulgraham_2239_0.jpeg">
+              <div class="w-clearfix source argument-source">
+                <div class="w-clearfix details argument-details">
+                  <div class="w-clearfix author argument-author">
+                    <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#">Bruce Springsteen</a>&nbsp;</div>
+                    <div class="data-output argument-metadata">25 minutes ago</div>
+                  </div>
+                  <div class="author"></div>
+                </div>
+              </div>
+              <div class="argument">
+                <div>This should be a net effort, we need to find a combination of tools that allow us to harness distributed knowledge in society and structure it efficiently and democratically. There are myriads of issues to be considered that require a proper space of debate. Issues that will require technical knowledge and issues that don't, country-based specific discussions, etc. Exiting challenge, and certainly one we must face together.</div>
+              </div>
+              <div class="w-clearfix social-group">
+                <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                  <div class="viral-btn-text replies-text">REPLY</div>
+                </a>
+                <div class="mark">
+                  <div class="w-dropdown mark-selection" data-delay="0">
+                    <div class="w-dropdown-toggle mark-text">
+                      <div>Mark As</div>
+                      <div class="w-icon-dropdown-toggle arrow"></div>
+                    </div>
+                    <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <div class="w-clearfix argument-item">
+                <div class="argument-vote-box">
+                  <div class="argument-upvote"><img src="images/upvote.png" alt="550d313c3205ed7e3f2ca6ea_upvote.png">
+                  </div>
+                  <div>8</div>
+                  <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                  </div>
+                </div><img class="democracy-owner article-author" src="images/a0ef853f6f9079e67eeb408bbfa451e2.png" alt="54e6b2270f9f854c29e381a1_a0ef853f6f9079e67eeb408bbfa451e2.png">
+                <div class="w-clearfix source argument-source">
+                  <div class="w-clearfix details argument-details">
+                    <div class="w-clearfix author argument-author">
+                      <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#">Dream On Boy</a>&nbsp;</div>
+                      <div class="data-output argument-metadata">3 days ago</div>
+                    </div>
+                    <div class="author"></div>
+                  </div>
+                </div>
+                <div class="argument">
+                  <div>They should certainly be better regulated, but they should not be banned: they do have their uses.&nbsp;Exclusive&nbsp;zero hour contracts have no place anywhere, but probably aren't lawful anyway.</div>
+                </div>
+                <div class="w-clearfix social-group">
+                  <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                    <div class="viral-btn-text replies-text">REPLY</div>
+                  </a>
+                  <div class="mark">
+                    <div class="w-dropdown mark-selection" data-delay="0">
+                      <div class="w-dropdown-toggle mark-text">
+                        <div>Mark As</div>
+                        <div class="w-icon-dropdown-toggle arrow"></div>
+                      </div>
+                      <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-clearfix argument-item">
+                <div class="argument-vote-box">
+                  <div class="argument-upvote"><img src="images/upvote.png" alt="550d313c3205ed7e3f2ca6ea_upvote.png">
+                  </div>
+                  <div>9</div>
+                  <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                  </div>
+                </div><img class="democracy-owner article-author" src="images/portrait-rock.png" alt="550d40893be9b4803f8cd8bf_portrait-rock.png">
+                <div class="official author-official"><img class="official-account" src="images/official.png" alt="54e6959d0f9f854c29e38082_official.png" title="An elected member of the state committed to DemocracyOS">
+                </div>
+                <div class="w-clearfix source argument-source">
+                  <div class="w-clearfix details argument-details">
+                    <div class="w-clearfix author argument-author">
+                      <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#"><strong>Senator</strong> John Turturro</a>&nbsp;</div>
+                      <div class="data-output argument-metadata">10 hours ago</div>
+                    </div>
+                    <div class="author"></div>
+                  </div>
+                </div>
+                <div class="argument">
+                  <div>Internet should be a human right like it is Health and Education only that should be more self-regulated (less interference of the National States) than the ones above. The question is how?</div>
+                </div>
+                <div class="w-clearfix social-group">
+                  <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                    <div class="viral-btn-text replies-text">REPLY</div>
+                  </a>
+                  <div class="mark">
+                    <div class="w-dropdown mark-selection" data-delay="0">
+                      <div class="w-dropdown-toggle mark-text">
+                        <div>Mark As</div>
+                        <div class="w-icon-dropdown-toggle arrow"></div>
+                      </div>
+                      <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-clearfix argument-item">
+                  <div class="argument-vote-box">
+                    <div class="argument-upvote"><img src="images/upvote.png" alt="550d313c3205ed7e3f2ca6ea_upvote.png">
+                    </div>
+                    <div>4</div>
+                    <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                    </div>
+                  </div><img class="democracy-owner article-author" src="images/portrait-commander.png" alt="550d43786ba5885555e12307_portrait-commander.png">
+                  <div class="w-clearfix source argument-source">
+                    <div class="w-clearfix details argument-details">
+                      <div class="w-clearfix author argument-author">
+                        <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#">Jesus Christi</a>&nbsp;</div>
+                        <div class="data-output argument-metadata">3 days ago</div>
+                      </div>
+                      <div class="author"></div>
+                    </div>
+                  </div>
+                  <div class="w-clearfix argument">
+                    <div class="w-clearfix crown trolling"><img class="olive" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png">
+                      <div class="crown-label">FLAGGED&nbsp;fOR&nbsp;TROLLING.&nbsp;</div>
+                    </div>
+                    <div class="troll">These contracts allow a necessary kind of flexible relationship between employers and employees. Maybe the law should be improved to contemplate possible abuse situations, but I don't agree with all the comments I saw here on ending Zero Hour Contracts.</div>
+                  </div>
+                  <div class="w-clearfix social-group">
+                    <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                      <div class="viral-btn-text replies-text">REPLY</div>
+                    </a>
+                    <div class="mark">
+                      <div class="w-dropdown mark-selection" data-delay="0">
+                        <div class="w-dropdown-toggle mark-text">
+                          <div>Mark As</div>
+                          <div class="w-icon-dropdown-toggle arrow"></div>
+                        </div>
+                        <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                        </nav>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-clearfix argument-item">
+                  <div class="argument-vote-box">
+                    <div class="argument-upvote"><img src="images/upvote.png" alt="550d313c3205ed7e3f2ca6ea_upvote.png">
+                    </div>
+                    <div>4</div>
+                    <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                    </div>
+                  </div><img class="democracy-owner article-author" src="images/portrait-bastian.jpg" alt="550d42223205ed7e3f2ca81a_portrait-bastian.jpg">
+                  <div class="w-clearfix source argument-source">
+                    <div class="w-clearfix details argument-details">
+                      <div class="w-clearfix author argument-author">
+                        <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#">Ernesto Pelotudi</a>&nbsp;</div>
+                        <div class="data-output argument-metadata">3 days ago</div>
+                      </div>
+                      <div class="author"></div>
+                    </div>
+                  </div>
+                  <div class="argument">
+                    <div>Just to share an Italian parliamentary initiative along the same lines <a class="demos-link" href="#">http://www.camera.it/leg17/1179</a>. A public consultation will follow on October 27th.</div>
+                  </div>
+                  <div class="w-clearfix social-group">
+                    <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                      <div class="viral-btn-text replies-text">REPLY</div>
+                    </a>
+                    <div class="mark">
+                      <div class="w-dropdown mark-selection" data-delay="0">
+                        <div class="w-dropdown-toggle mark-text">
+                          <div>Mark As</div>
+                          <div class="w-icon-dropdown-toggle arrow"></div>
+                        </div>
+                        <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                        </nav>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-clearfix thread">
+            <div class="w-clearfix argument-item">
+              <div class="argument-vote-box">
+                <div class="argument-upvote"><img src="images/upvote.png" alt="550d313c3205ed7e3f2ca6ea_upvote.png">
+                </div>
+                <div>4</div>
+                <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                </div>
+              </div><img class="democracy-owner article-author" src="images/client-markfarrell.png" alt="550d40926ba5885555e122f1_client-markfarrell.png">
+              <div class="official author-official"><img class="official-account" src="images/official.png" alt="54e6959d0f9f854c29e38082_official.png" title="An elected member of the state committed to DemocracyOS">
+              </div>
+              <div class="w-clearfix source argument-source">
+                <div class="w-clearfix details argument-details">
+                  <div class="w-clearfix author argument-author">
+                    <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#"><strong>Supervisor</strong> Mark Farrell</a>&nbsp;</div>
+                    <div class="data-output argument-metadata">3 days ago</div>
+                  </div>
+                  <div class="author"></div>
+                </div>
+              </div>
+              <div class="argument">
+                <div>This is both absolutely brilliant and so-very-needed.</div>
+              </div>
+              <div class="w-clearfix social-group">
+                <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                  <div class="viral-btn-text replies-text">REPLY</div>
+                </a>
+                <div class="mark">
+                  <div class="w-dropdown mark-selection" data-delay="0">
+                    <div class="w-dropdown-toggle mark-text">
+                      <div>Mark As</div>
+                      <div class="w-icon-dropdown-toggle arrow"></div>
+                    </div>
+                    <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <div class="w-clearfix argument-item">
+                <div class="argument-vote-box">
+                  <div class="argument-upvote"><img src="images/upvote.png" alt="550d313c3205ed7e3f2ca6ea_upvote.png">
+                  </div>
+                  <div>3</div>
+                  <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                  </div>
+                </div><img class="democracy-owner article-author" src="images/client-nadeem.png" alt="550d42027555cd57554d5e3d_client-nadeem.png">
+                <div class="w-clearfix source argument-source">
+                  <div class="w-clearfix details argument-details">
+                    <div class="w-clearfix author argument-author">
+                      <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#">Jacinta Pichimauida</a>&nbsp;</div>
+                      <div class="data-output argument-metadata">3 days ago</div>
+                    </div>
+                    <div class="author"></div>
+                  </div>
+                </div>
+                <div class="argument">
+                  <div>As we are moving forward the word privacy for the big corporations are fading away. We are more of a product for them which they sell to gain their profits. We truly need to regularize global law on privacy.</div>
+                </div>
+                <div class="w-clearfix social-group">
+                  <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                    <div class="viral-btn-text replies-text">REPLY</div>
+                  </a>
+                  <div class="mark">
+                    <div class="w-dropdown mark-selection" data-delay="0">
+                      <div class="w-dropdown-toggle mark-text">
+                        <div>Mark As</div>
+                        <div class="w-icon-dropdown-toggle arrow"></div>
+                      </div>
+                      <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-clearfix argument-item">
+                <div class="argument-vote-box">
+                  <div class="argument-upvote"><img src="images/upvote.png" alt="550d313c3205ed7e3f2ca6ea_upvote.png">
+                  </div>
+                  <div>2</div>
+                  <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                  </div>
+                </div><img class="democracy-owner article-author" src="images/a0ef853f6f9079e67eeb408bbfa451e2.png" alt="54e6b2270f9f854c29e381a1_a0ef853f6f9079e67eeb408bbfa451e2.png">
+                <div class="w-clearfix source argument-source">
+                  <div class="w-clearfix details argument-details">
+                    <div class="w-clearfix author argument-author">
+                      <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#">Jacinta Pichimauida</a>&nbsp;</div>
+                      <div class="data-output argument-metadata">3 days ago</div>
+                    </div>
+                    <div class="author"></div>
+                  </div>
+                </div>
+                <div class="argument">
+                  <div>YES, the world needs this. We all know that, especially in the light of various attempts at surveillance, censorship etc. At the very beginning - the title "Magna Carta for the Web": OK as long as we consider the Web an all-embracing digital medium. However the definition is tricky - is the Web defined by http(s) protocol or by HTML code or both? IMHO the Magna Carta should be of the Internet, not just of the Web.</div>
+                </div>
+                <div class="w-clearfix social-group">
+                  <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                    <div class="viral-btn-text replies-text">REPLY</div>
+                  </a>
+                  <div class="mark">
+                    <div class="w-dropdown mark-selection" data-delay="0">
+                      <div class="w-dropdown-toggle mark-text">
+                        <div>Mark As</div>
+                        <div class="w-icon-dropdown-toggle arrow"></div>
+                      </div>
+                      <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-clearfix thread">
+            <div class="w-clearfix argument-item">
+              <div class="argument-vote-box">
+                <div class="argument-upvote selected-upvote"><img src="images/upvote-selected.png" alt="550d31776ba5885555e121eb_upvote-selected.png">
+                </div>
+                <div>-1</div>
+                <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                </div>
+              </div>
+              <div class="w-clearfix crown crown-nay"><img class="olive" src="images/olive.png" alt="553d3244093f04bb293e759c_olive.png">
+                <div class="crown-label">BEST Argument for NAY&nbsp;</div>
+              </div><img class="democracy-owner article-author" src="images/a0ef853f6f9079e67eeb408bbfa451e2.png" alt="54e6b2270f9f854c29e381a1_a0ef853f6f9079e67eeb408bbfa451e2.png">
+              <div class="w-clearfix source argument-source">
+                <div class="w-clearfix details argument-details">
+                  <div class="w-clearfix author argument-author">
+                    <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#">Humberto Lombrosio</a>&nbsp;</div>
+                    <div class="data-output argument-metadata">6 months ago</div>
+                  </div>
+                  <div class="author"></div>
+                </div>
+              </div>
+              <div class="argument">
+                <div>Yes. This movement needs to be in international level. Local success stories may help to ramp up, but the new generation of democracy can, and will only succeed in the international level. Internet is above national levels, by its nature and by its definition.</div>
+              </div>
+              <div class="w-clearfix social-group">
+                <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                  <div class="viral-btn-text replies-text">REPLY</div>
+                </a>
+                <div class="mark">
+                  <div class="w-dropdown mark-selection" data-delay="0">
+                    <div class="w-dropdown-toggle mark-text">
+                      <div>Mark As</div>
+                      <div class="w-icon-dropdown-toggle arrow"></div>
+                    </div>
+                    <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <div class="w-clearfix argument-item">
+                <div class="argument-vote-box">
+                  <div class="argument-upvote"><img src="images/upvote.png" alt="550d313c3205ed7e3f2ca6ea_upvote.png">
+                  </div>
+                  <div>-12</div>
+                  <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                  </div>
+                </div><img class="democracy-owner article-author" src="images/portrait-pantufla.jpg" alt="54e6b68e0b7ff64d2954a992_portrait-pantufla.jpg">
+                <div class="w-clearfix source argument-source">
+                  <div class="w-clearfix details argument-details">
+                    <div class="w-clearfix author argument-author">
+                      <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#">Neil Young</a>&nbsp;</div>
+                      <div class="data-output argument-metadata">3 days ago</div>
+                    </div>
+                    <div class="author"></div>
+                  </div>
+                </div>
+                <div class="argument">
+                  <div>A first step might be to acknowledge the unpleasantness of the situation, by, for example, allowing important tax cuts to employees under that regime.</div>
+                </div>
+                <div class="w-clearfix social-group">
+                  <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                    <div class="viral-btn-text replies-text">REPLY</div>
+                  </a>
+                  <div class="mark">
+                    <div class="w-dropdown mark-selection" data-delay="0">
+                      <div class="w-dropdown-toggle mark-text">
+                        <div>Mark As</div>
+                        <div class="w-icon-dropdown-toggle arrow"></div>
+                      </div>
+                      <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-clearfix argument-item">
+                <div class="argument-vote-box">
+                  <div class="argument-upvote"><img src="images/upvote.png" alt="550d313c3205ed7e3f2ca6ea_upvote.png">
+                  </div>
+                  <div>2</div>
+                  <div class="argument-downvote"><img src="images/downvote.png" alt="550d31477555cd57554d5d68_downvote.png">
+                  </div>
+                </div><img class="democracy-owner article-author" src="images/portrait-flor.jpg" alt="550d43883be9b4803f8cd8dd_portrait-flor.jpg">
+                <div class="w-clearfix source argument-source">
+                  <div class="w-clearfix details argument-details">
+                    <div class="w-clearfix author argument-author">
+                      <div class="created-by democracy-proposal"><a class="demos-link argument-author" href="#">Florentino Perez</a>&nbsp;</div>
+                      <div class="data-output argument-metadata">3 days ago</div>
+                    </div>
+                    <div class="author"></div>
+                  </div>
+                </div>
+                <div class="argument">
+                  <div>The Zero Hour contract harks back to the bad old days when workers had to present themselves before the Gates of places of work and wait to be selected for work to stave off starvation. Is this all we have gained in 100 years of political struggle against bad employment regulations? We have food banks, and soup kitchens, why not "work houses"? Why not just hand out the shackles and enslave us? (mortgages and bank loans are already doing it). It stinks, how often do you here from politicains that we are one of the richest nation in the world, but we can't share the wealth with the workers because that would leave less for the wealthy. We are all making a contribution to this country's wealth and we all deserve a fair share, not scraps thrown down to us. Fair politics for a fair nation!</div>
+                </div>
+                <div class="w-clearfix social-group">
+                  <a class="w-clearfix w-inline-block social discovery-social replies" href="#" target="_blank"><img class="discover-social-img" src="images/reply.png" alt="550d3fcd6ba5885555e122c1_reply.png">
+                    <div class="viral-btn-text replies-text">REPLY</div>
+                  </a>
+                  <div class="mark">
+                    <div class="w-dropdown mark-selection" data-delay="0">
+                      <div class="w-dropdown-toggle mark-text">
+                        <div>Mark As</div>
+                        <div class="w-icon-dropdown-toggle arrow"></div>
+                      </div>
+                      <nav class="w-dropdown-list w-clearfix dropdown-list"><img class="dropdown-icon" src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">Argument for yea</a><img class="dropdown-icon" src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png"><a class="w-dropdown-link mark-text mark-option" href="#">argument for nay</a><img class="dropdown-icon" src="images/fire.png" alt="553c644c375ad6042571e142_fire.png"><a class="w-dropdown-link mark-text mark-option" href="#">Trolling</a>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="vote">
+      <h5 class="dialogbox-title">Vote</h5>
+      <div class="w-clearfix vote-box"><img class="icon-ballot" src="images/multiple25.png" alt="553b4fd06f1f25be1cc44cec_multiple25.png">
+        <div class="vote-data"><strong>270</strong> voters</div><img class="icon-ballot" src="images/clock14.png" alt="553b50a26f1f25be1cc44cf7_clock14.png">
+        <div class="vote-data yellow deadline-data">17 hours left</div>
+        <a class="w-clearfix w-inline-block vote-option vote-yes" href="#">
+          <div>YEA</div>
+          <div class="tick selected vote-tick"><img src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png">
+          </div>
+        </a>
+        <a class="w-inline-block vote-option vote-abstain" href="#">
+          <div>Abstain</div>
+          <div class="tick selected vote-tick"></div>
+        </a>
+        <a class="w-inline-block vote-option vote-no" href="#">
+          <div>Nay</div>
+          <div class="tick selected vote-tick"><img src="images/cross-white.png" alt="550ca0d66ba5885555e11a5e_cross-white.png">
+          </div>
+        </a>
+        <a class="w-clearfix w-inline-block vote-option vote-delegate" href="#">
+          <div>Delegate</div>
+          <div class="tick selected vote-tick"><img src="images/tick-white.png" alt="54f28259a148c86701425d85_tick-white.png">
+          </div>
+        </a>
+      </div>
+      <h5 class="dialogbox-title">Delegated votes</h5>
+      <div class="w-clearfix vote-box">
+        <div class="w-clearfix delegation-tag"><img class="delegation-icon" src="images/tag79.png" alt="553c22de4656e3bc1c550865_tag79.png">
+          <div class="delegation-text">Urban planning</div>
+          <div class="delegation-score">
+            <div>25</div>
+          </div>
+        </div>
+        <div class="w-clearfix delegation-tag"><img class="delegation-icon" src="images/tag79.png" alt="553c22de4656e3bc1c550865_tag79.png">
+          <div class="delegation-text">Airbnb</div>
+          <div class="delegation-score">
+            <div>3</div>
+          </div>
+        </div>
+        <div class="w-clearfix delegation-tag"><img class="delegation-icon" src="images/tag79.png" alt="553c22de4656e3bc1c550865_tag79.png">
+          <div class="delegation-text">rent</div>
+          <div class="delegation-score">
+            <div>0</div>
+          </div>
+        </div>
+      </div>
+      <h5 class="dialogbox-title">Requirements to vote</h5>
+      <div class="w-clearfix vote-box">
+        <div class="w-clearfix requirement-tag"><img class="delegation-icon" src="images/passport8.png" alt="553c2a0ad88dfba76be524c5_passport8.png">
+          <div class="requirement-text">Citizen of <strong>United States</strong>
+          </div>
+          <div class="requirement-score"><img class="requirement-img" src="images/tick-on.png" alt="54f27c0249cd545d7a17b608_tick-on.png">
+          </div>
+        </div>
+        <div class="w-clearfix requirement-tag"><img class="delegation-icon" src="images/home78.png" alt="553c2c94c06388052575e7a0_home78.png">
+          <div class="requirement-text">Proof of Residence in <strong>New York</strong>
+          </div>
+          <div class="requirement-score"><img class="requirement-img" src="images/tick-on.png" alt="54f27c0249cd545d7a17b608_tick-on.png">
+          </div>
+        </div>
+      </div>
+      <a class="w-inline-block cancel" href="#" target="_blank" data-ix="new-interaction">
+        <div class="replies-text cancel-text viral-btn-text">Cancel</div>
+      </a>
+    </div><a class="w-inline-block vote-button" href="#" data-ix="show-vote-ballot-for-mobile"><h5 class="dialogbox-title vote-title">Vote</h5></a>
   </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>

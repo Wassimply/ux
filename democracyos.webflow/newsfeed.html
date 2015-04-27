@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Wed Feb 25 2015 04:12:02 GMT+0000 (UTC) -->
+<!-- Last Published: Mon Apr 27 2015 01:24:14 GMT+0000 (UTC) -->
 <html data-wf-site="54d7f5c9673830fd185e2750" data-wf-page="54e42f1874e9d6aa240405fd">
 <head>
   <meta charset="utf-8">
@@ -9,12 +9,12 @@
   <meta name="generator" content="Webflow">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
-  <link rel="stylesheet" type="text/css" href="css/democracyos.css">
+  <link rel="stylesheet" type="text/css" href="css/democracyos.webflow.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
       google: {
-        families: ["Montserrat:400,700","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Droid Serif:400,700","Droid Sans:400,700"]
+        families: ["Merriweather:300,400,700,900","Montserrat:400,700","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Droid Serif:400,700","Droid Sans:400,700","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]
       }
     });
   </script>
@@ -23,17 +23,15 @@
   <link rel="apple-touch-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png">
 </head>
 <body>
-  <div class="w-clearfix app-header">
-    <div class="header-container">
-      <div class="w-container btn-group">
-        <div class="w-clearfix logo"><img class="logo" src="images/logo-democracyos.png" alt="54e3dcca0d06303e245d998c_logo-democracyos.png">
-        </div>
-      </div>
-    </div>
-    <div class="search-input">
-      <div class="w-form w-clearfix">
-        <form class="w-clearfix command-form" id="wf-form-command-line" name="wf-form-command-line" data-name="command-line">
-          <input class="w-input command-line" id="command" type="text" placeholder="Search..." name="command" required="required" data-name="command">
+  <div class="w-section w-clearfix app-header">
+    <div class="w-clearfix app-menu">
+      <a class="w-inline-block link-hamburger home" href="newsfeed.html" data-ix="context-menu"><img class="menu-hamburger" src="images/home-icon.png" alt="54f655b967193b5405b2a363_home-icon.png">
+      </a>
+      <div class="w-form">
+        <form class="w-clearfix search-form" id="email-form" name="email-form" data-name="Email Form">
+          <div class="w-clearfix search-box">
+            <input class="w-input command-line" id="Search" type="email" placeholder="Search..." name="Search" data-name="Search" required="required"><img class="search-icon" src="images/search.png" alt="54f67c9f5a29c8b30bf0f74e_search.png">
+          </div>
         </form>
         <div class="w-form-done">
           <p>Thank you! Your submission has been received!</p>
@@ -43,25 +41,50 @@
         </div>
       </div>
     </div>
-    <div class="user-nav">
-      <div class="w-container btn-group">
-        <div class="w-clearfix btn">
-          <div class="w-clearfix user">
-            <div class="w-dropdown w-clearfix name" data-delay="0">
-              <div class="w-dropdown-toggle name">
-                <div>Santiago Siri</div>
-                <div class="w-icon-dropdown-toggle"></div>
+    <div class="w-clearfix demos-user"><img class="profile-pic" src="images/Screen Shot 2015-03-03 at 7.14.50 PM.png" alt="54f679012fc1fba53a157e7b_Screen%20Shot%202015-03-03%20at%207.14.50%20PM.png">
+      <h4 class="instance-title">Ernesto</h4><img class="dropdown-arrow" src="images/dropdown-arrow.png" alt="54f6857db0a6fdb20b9ffe66_dropdown-arrow.png">
+    </div>
+    <div class="w-clearfix demos-title">
+      <h4 class="instance-title">Democracy Activity</h4>
+    </div>
+    <div class="search-box search-mobile"><img class="search-icon search-mobile" src="images/search.png" alt="54f67c9f5a29c8b30bf0f74e_search.png">
+    </div>
+  </div>
+  <div class="w-section discovery-content newsfeed-section">
+    <div class="discovery-container">
+      <div class="w-clearfix discovery-item">
+        <div class="w-form">
+          <form class="w-clearfix" id="email-form" name="email-form" data-name="Email Form">
+            <input class="w-input setting-input post-form" id="Title-2" type="text" placeholder="Title for new proposal" name="Title-2" data-name="Title 2">
+            <textarea class="w-input setting-input post-form quick-proposal-input" id="field-2" placeholder="What is this proposal about?" name="field-2" required="required" data-name="Field 2"></textarea>
+          </form>
+          <div class="w-form-done">
+            <p>Thank you! Your submission has been received!</p>
+          </div>
+          <div class="w-form-fail">
+            <p>Oops! Something went wrong while submitting the form :(</p>
+          </div>
+        </div>
+        <div class="w-clearfix discovery-footer">
+          <div class="w-clearfix source call-to-action"><img class="democracy-owner" src="images/Screen Shot 2015-03-03 at 7.14.50 PM.png" alt="54f679012fc1fba53a157e7b_Screen%20Shot%202015-03-03%20at%207.14.50%20PM.png">
+            <div class="w-clearfix details">
+              <div class="w-clearfix author">
+                <div class="created-by democracy-proposal"><a class="demos-link" href="#">Ernesto Guevara</a>&nbsp;</div>
+                <div class="created-by democracy-proposal">What’s happening in Argentina?</div>
               </div>
-              <nav class="w-dropdown-list dropdown-menu"><a class="w-dropdown-link dropdown-link" href="#">Profile</a><a class="w-dropdown-link dropdown-link" href="#">Settings</a><a class="w-dropdown-link dropdown-link" href="#">Logout</a>
-              </nav>
-            </div><img class="profile" src="images/5d2849bcb825c61072c77c804521a535.jpeg" alt="54dd53901db7daaf1eb36b1d_5d2849bcb825c61072c77c804521a535.jpeg">
+              <div class="author"></div>
+            </div>
+          </div>
+          <div class="w-clearfix trigger call-to-action">
+            <div class="w-clearfix details call-to-action">
+              <a class="w-inline-block vote-option vote-discovery" href="#">
+                <div>edit new proposal</div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="discovery-content">
-    <div class="discovery-container">
+      <h1 class="feed-separator">last news</h1>
       <div class="w-clearfix discovery-item">
         <div class="discovery-description">
           <h1 class="discovery-title">Regulate Airbnb in Manhattan</h1>
@@ -72,7 +95,7 @@
               <div class="data-output yellow">17 hours left</div>
             </div>
           </div>
-          <p class="proposal-paragraph">A whole new way of renting houses and vacations spots arised when Airbnb came up. An inovative idea and an iconic case study of so-called sharing economy, this community is a marketplace where guests can book spaces from hosts connects people who have space to spare with those who are looking for a place to stay... <a href="#" class="demos-link">(read full proposal)</a>
+          <p class="proposal-paragraph">A whole new way of renting houses and vacations spots arised when Airbnb came up. An inovative idea and an iconic case study of so-called sharing economy, this community is a marketplace where guests can book spaces from hosts connects people who have space to spare with those who are looking for a place to stay... <a class="demos-link" href="#">(read full proposal)</a>
           </p>
         </div>
         <div class="w-clearfix discovery-thumbnail"><img class="thumbnail" src="images/screen-shot-2014-10-17-at-3-35-38-pm.png" alt="54e43acd59e6fba824938a08_screen-shot-2014-10-17-at-3-35-38-pm.png">
@@ -94,8 +117,8 @@
             </div>
             <div class="w-clearfix details">
               <div class="w-clearfix author">
-                <div class="created-by democracy-proposal"><a href="#" class="demos-link">Ben Kallos</a>&nbsp;(New York City Council Member)</div>
-                <div class="created-by democracy-proposal">in&nbsp;<a href="#" class="demos-link">New York City Council</a>.</div>
+                <div class="created-by democracy-proposal"><a class="demos-link" href="#">Ben Kallos</a>&nbsp;(New York City Council Member)</div>
+                <div class="created-by democracy-proposal">in&nbsp;<a class="demos-link" href="#">New York City Council</a>.</div>
               </div>
               <div class="author"></div>
             </div>
@@ -137,8 +160,8 @@
             </div>
             <div class="w-clearfix details">
               <div class="w-clearfix author">
-                <div class="created-by democracy-proposal"><a href="#" class="demos-link">Sir Tim Berners-Lee</a>&nbsp;(Honorary President of W3C)</div>
-                <div class="created-by democracy-proposal">in&nbsp;<a href="#" class="demos-link">World Wide Web Consortium</a>
+                <div class="created-by democracy-proposal"><a class="demos-link" href="#">Sir Tim Berners-Lee</a>&nbsp;(Honorary President of W3C)</div>
+                <div class="created-by democracy-proposal">in&nbsp;<a class="demos-link" href="#">World Wide Web Consortium</a>
                 </div>
               </div>
               <div class="author"></div>
@@ -187,7 +210,7 @@
             <div class="w-clearfix details">
               <div class="w-clearfix author">
                 <div class="created-by democracy-proposal"><a href="#" class="demos-link">Billy Bob Thorton</a>&nbsp;</div>
-                <div class="created-by democracy-proposal">in&nbsp;<a href="#" class="demos-link">Ideas for a New Kingdom</a>
+                <div class="created-by democracy-proposal">in&nbsp;<a class="demos-link" href="#">Ideas for a New Kingdom</a>
                 </div>
               </div>
               <div class="author"></div>
@@ -218,7 +241,7 @@
               <div class="data-output">9 days left</div>
             </div>
           </div>
-          <p class="proposal-paragraph">The&nbsp;<a href="#" class="demos-link">Detroit Water Brigade</a>&nbsp;is a volunteer-led alliance of compassionate citizens of Detroit and their international allies working to bring emergency relief to families facing water shut offs while advocating for an income-based Water Affordability Plan in Detroit...</p>
+          <p class="proposal-paragraph">The&nbsp;<a class="demos-link" href="#">Detroit Water Brigade</a>&nbsp;is a volunteer-led alliance of compassionate citizens of Detroit and their international allies working to bring emergency relief to families facing water shut offs while advocating for an income-based Water Affordability Plan in Detroit...</p>
         </div>
         <div class="w-clearfix discovery-thumbnail"><img class="thumbnail" src="images/Screen Shot 2015-02-19 at 7.00.29 PM.png" alt="54e6a3a00b7ff64d2954a88e_Screen%20Shot%202015-02-19%20at%207.00.29%20PM.png">
           <div class="w-clearfix tag"><img class="tag-img" src="images/tag-white-small.png" alt="54e9539eb8dcdb0b11d80bb7_tag-white-small.png">
@@ -237,8 +260,8 @@
           <div class="w-clearfix source"><img class="democracy-owner" src="images/Screen Shot 2015-02-19 at 6.57.24 PM.png" alt="54e6a3af6ffaedc320c1cdc5_Screen%20Shot%202015-02-19%20at%206.57.24%20PM.png">
             <div class="w-clearfix details">
               <div class="w-clearfix author">
-                <div class="created-by democracy-proposal"><a href="#" class="demos-link">Bruce Springsteen</a>&nbsp;</div>
-                <div class="created-by democracy-proposal">in&nbsp;<a href="#" class="demos-link">Detroit Water Brigade</a>
+                <div class="created-by democracy-proposal"><a class="demos-link" href="#">Bruce Springsteen</a>&nbsp;</div>
+                <div class="created-by democracy-proposal">in&nbsp;<a class="demos-link" href="#">Detroit Water Brigade</a>
                 </div>
               </div>
               <div class="author"></div>
@@ -289,7 +312,7 @@
             <div class="w-clearfix details">
               <div class="w-clearfix author">
                 <div class="created-by democracy-proposal"><a href="#" class="demos-link">Flor Key</a>&nbsp;</div>
-                <div class="created-by democracy-proposal">in&nbsp;<a href="#" class="demos-link">Coalición Nacional de la Chambomba (CONCHA)</a>
+                <div class="created-by democracy-proposal">in&nbsp;<a class="demos-link" href="#">Coalición Nacional de la Chambomba (CONCHA)</a>
                 </div>
               </div>
               <div class="author"></div>
@@ -444,7 +467,7 @@
             <div class="w-clearfix details">
               <div class="w-clearfix author">
                 <div class="created-by democracy-proposal"><a href="#" class="demos-link">Timoteo Griguol</a>&nbsp;</div>
-                <div class="created-by democracy-proposal">in&nbsp;<a href="#" class="demos-link">Details Really Fucking Matter, Got it?</a>
+                <div class="created-by democracy-proposal">in&nbsp;<a class="demos-link" href="#">Details Really Fucking Matter, Got it?</a>
                 </div>
               </div>
               <div class="author"></div>
@@ -804,6 +827,126 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="feature-menu" data-ix="new-interaction">
+      <div class="list-container">
+        <ul class="w-list-unstyled navlist">
+          <li class="separator">
+            <div>My democracies</div>
+          </li>
+          <li class="w-clearfix active" data-ix="new-interaction">
+            <a class="w-clearfix w-inline-block voted" href="index.html" data-ix="new-interaction">
+              <div class="title">DemocracyOS Foundation</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/earth.png" alt="54e1aab198a59a2e55a465cd_earth.png">
+                <div class="data-output">Earth</div><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">12K participants</div>
+              </div>
+            </a><img class="democracy-thumbnail" src="images/favicon.png" alt="54f2a2c13bc4fd5b7ac51d1a_favicon.png">
+          </li>
+          <li class="w-clearfix active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">Partido de la Red</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/flag-ar.png" alt="54e1a168691f69a5629aa96c_flag-ar.png">
+                <div class="data-output">Buenos Aires</div><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">938 participants</div>
+              </div>
+            </a><img class="democracy-thumbnail" src="images/logo-pdr.png" alt="54fce44f1a1739771c15a8d6_logo-pdr.png">
+          </li>
+          <li class="separator">
+            <div>Participated Recently</div>
+          </li>
+          <li class="w-clearfix active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">FIFA World Cup Rules</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/earth.png" alt="54e1aab198a59a2e55a465cd_earth.png">
+                <div class="data-output">Earth</div><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">1.2M participants</div>
+              </div>
+            </a><img class="democracy-thumbnail" src="images/Screen Shot 2015-03-08 at 7.35.41 PM.png" alt="54fd07161a1739771c15aaed_Screen%20Shot%202015-03-08%20at%207.35.41%20PM.png">
+          </li>
+          <li class="w-clearfix active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">Estudiantes TEC&nbsp;de Monterrey</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/flag-mx.png" alt="54e6b2900f9f854c29e381a8_flag-mx.png">
+                <div class="data-output">Monterrey</div><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">732 participants</div>
+              </div>
+            </a><img class="democracy-thumbnail" src="images/Screen Shot 2015-03-08 at 5.41.29 PM.png" alt="54fcec4d763bfc470ec802d3_Screen%20Shot%202015-03-08%20at%205.41.29%20PM.png">
+          </li>
+          <li class="w-clearfix active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">Government of Mars</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/mars.png" alt="54e6ebf66ffaedc320c1d3a0_mars.png">
+                <div class="data-output">Mars</div><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">34 participants</div>
+              </div>
+            </a><img class="democracy-thumbnail" src="images/Screen Shot 2015-03-08 at 5.42.50 PM.png" alt="54fcec965780b4480e81a082_Screen%20Shot%202015-03-08%20at%205.42.50%20PM.png">
+          </li>
+          <li class="separator">
+            <div>most active today</div>
+          </li>
+          <li class="w-clearfix active">
+            <div class="ranking-position">
+              <div>1</div>
+            </div>
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">PODEMOS</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/flag-sp.png" alt="54e1ab230eb2d7a462aedb39_flag-sp.png">
+                <div class="data-output">Spain</div><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">291 participants</div>
+              </div>
+            </a><img class="democracy-thumbnail" src="images/client-podemos.png" alt="54fcd8fe763bfc470ec80141_client-podemos.png">
+          </li>
+          <li class="active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">Docker Development</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/earth.png" alt="54e1aab198a59a2e55a465cd_earth.png">
+                <div class="data-output">Earth</div><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">2,530 participants</div>
+              </div>
+            </a><img class="democracy-thumbnail" src="images/Screen Shot 2015-03-08 at 4.18.26 PM.png" alt="54fcd8db5780b4480e819f94_Screen%20Shot%202015-03-08%20at%204.18.26%20PM.png">
+            <div class="ranking-position">
+              <div>2</div>
+            </div>
+          </li>
+          <li class="active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">Congress of the United States</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/flag-us.png" alt="54e1a11498a59a2e55a46529_flag-us.png">
+                <div class="data-output">United States</div><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">9,783 participants</div>
+              </div>
+            </a><img class="democracy-thumbnail" src="images/Seal_of_the_United_States_Congress.svg" alt="54fcd94921c2e6761cc517ff_Seal_of_the_United_States_Congress.svg">
+            <div class="ranking-position">
+              <div>3</div>
+            </div>
+          </li>
+          <li class="active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">Bitcoin Foundation</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/earth.png" alt="54e1aab198a59a2e55a465cd_earth.png">
+                <div class="data-output">Earth</div><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">23.4K participants</div>
+              </div>
+            </a><img class="democracy-thumbnail" src="images/btc-mono-ring-orange.jpg" alt="54fcd98221c2e6761cc51809_btc-mono-ring-orange.jpg">
+            <div class="ranking-position">
+              <div>4</div>
+            </div>
+          </li>
+          <li class="active">
+            <a class="w-clearfix w-inline-block voted" href="#">
+              <div class="title">Linux Kernel</div>
+              <div class="w-clearfix metadata nav-menu"><img class="data-icon" src="images/earth.png" alt="54e1aab198a59a2e55a465cd_earth.png">
+                <div class="data-output">Earth</div><img class="data-icon" src="images/citizens.png" alt="54e6354f0b7ff64d29549c6f_citizens.png">
+                <div class="data-output">76.9K participants</div>
+              </div>
+            </a><img class="democracy-thumbnail" src="images/Screen Shot 2015-03-08 at 5.09.03 PM.png" alt="54fce4ba21c2e6761cc51952_Screen%20Shot%202015-03-08%20at%205.09.03%20PM.png">
+            <div class="ranking-position">
+              <div>5</div>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
